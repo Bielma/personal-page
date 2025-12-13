@@ -37,7 +37,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p>hola@bielma.me</p>
+                            <p>abielmalopez@gmail.com</p>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4>Ubicación</h4>
-                            <p>Ciudad de México, México</p>
+                            <p>Guadalajara, México</p>
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4>Teléfono</h4>
-                            <p>+52 55 1234 5678</p>
+                            <p>+52 9512475169</p>
                         </div>
                     </div>
                 </motion.div>
