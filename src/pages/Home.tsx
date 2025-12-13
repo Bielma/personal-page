@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Github, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
