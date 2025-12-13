@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -37,11 +37,15 @@ const Home = () => {
                         transition={{ duration: 0.5, delay: 0.6 }}
                     >
                         <Link to="/projects" className="btn">
-                            Ver Proyectos <ArrowRight size={18} style={{ marginLeft: '8px' }} />
+                            Ver Proyectos
+
                         </Link>
                         <Link to="/contact" className="btn btn-outline">
                             Contactar
                         </Link>
+                        <a href="/resume.pdf" download className="btn btn-outline">
+                            Descargar CV
+                        </a>
                     </motion.div>
 
                     <motion.div
@@ -50,14 +54,17 @@ const Home = () => {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.5, delay: 0.8 }}
                     >
-                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Bielma" target="_blank" rel="noopener noreferrer">
                             <Github size={24} />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://linkedin.com/in/bielma" target="_blank" rel="noopener noreferrer">
                             <Linkedin size={24} />
                         </a>
-                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/thonybl" target="_blank" rel="noopener noreferrer">
                             <Twitter size={24} />
+                        </a>
+                        <a href="https://instagram.com/bielma.js" target="_blank" rel="noopener noreferrer">
+                            <Instagram size={24} />
                         </a>
                     </motion.div>
                 </div>
