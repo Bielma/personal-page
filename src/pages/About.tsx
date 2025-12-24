@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import './About.css';
 
 const skills = [
-    'JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js', 'HTML5 & CSS3',
-    'Git', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'SQL'
+    'JavaScript (ES6+)', 'TypeScript', 'Vue', 'React', 'Laravel', 'Node.js', 'HTML5 & CSS3',
+    'Git', 'Next.js', 'SQL', 'PHP', 'AWS', 'Linux'
 ];
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
                         <p>
                             Me encanta aprender nuevas tecnologías y mantenerme al día con las últimas tendencias
                             del desarrollo web. Cuando no estoy programando, probablemente me encuentres
-                            leyendo sobre tecnología, jugando videojuegos o explorando nuevos lugares.
+                            leyendo sobre tecnología, jugando algún videojuego o explorando nuevos lugares.
                         </p>
                     </div>
 

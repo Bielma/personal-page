@@ -5,29 +5,29 @@ import './Projects.css';
 const projects = [
     {
         id: 1,
-        title: 'E-commerce Dashboard',
-        description: 'Un panel de administración completo para tiendas online con gráficos en tiempo real y gestión de inventario.',
-        tags: ['React', 'TypeScript', 'Chart.js', 'Tailwind'],
+        title: 'Mi muro',
+        description: 'Sistema Gestor de Usuarios de la Secretaría de Educación Jalisco.',
+        tags: ['React', 'Bootstrap', 'Laravel', 'MySQL'],
         github: 'https://github.com',
-        demo: 'https://demo.com',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80'
+        demo: 'https://mi.sej.jalisco.gob.mx/',
+        image: 'https://mi.sej.jalisco.gob.mx/assets/images/logo.svg'
     },
     {
         id: 2,
-        title: 'Task Management App',
+        title: 'Titulacion CUCEI',
         description: 'Aplicación de gestión de tareas colaborativa con actualizaciones en tiempo real y sistema de notificaciones.',
-        tags: ['Next.js', 'Socket.io', 'PostgreSQL'],
+        tags: ['Next.js', 'React', 'Laravel', 'PostgreSQL',],
         github: 'https://github.com',
-        demo: 'https://demo.com',
+        demo: 'https://titulacion.cucei.udg.mx/',
         image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=800&q=80'
     },
     {
         id: 3,
-        title: 'Weather Forecast',
-        description: 'Aplicación del clima que muestra pronósticos detallados utilizando geolocalización y APIs externas.',
-        tags: ['React', 'OpenWeatherMap API', 'CSS Modules'],
+        title: 'Platvialum',
+        description: 'Módulo de ventas para la empresa Platvialum.',
+        tags: ['React', 'Node.js'],
         github: 'https://github.com',
-        demo: 'https://demo.com',
+        demo: 'https://platvialum.com/',
         image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80'
     },
     {

@@ -2,32 +2,7 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import './Blog.css';
 
-const posts = [
-    {
-        id: 1,
-        title: 'El futuro del desarrollo web con React 19',
-        excerpt: 'Explorando las nuevas características de React 19, incluyendo el compilador automático y las mejoras en Server Components.',
-        date: '10 Oct, 2023',
-        readTime: '5 min de lectura',
-        category: 'React'
-    },
-    {
-        id: 2,
-        title: 'Por qué TypeScript es esencial en 2024',
-        excerpt: 'Un análisis profundo de cómo TypeScript mejora la mantenibilidad del código y reduce errores en proyectos a gran escala.',
-        date: '25 Sep, 2023',
-        readTime: '7 min de lectura',
-        category: 'TypeScript'
-    },
-    {
-        id: 3,
-        title: 'Optimizando el rendimiento web',
-        excerpt: 'Consejos prácticos para mejorar el Core Web Vitals y asegurar que tu sitio cargue instantáneamente.',
-        date: '12 Sep, 2023',
-        readTime: '6 min de lectura',
-        category: 'Performance'
-    }
-];
+const posts = []
 
 const Blog = () => {
     return (

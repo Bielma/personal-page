@@ -57,12 +57,13 @@ const Contact = () => {
                         </div>
                         <div>
                             <h4>Teléfono</h4>
-                            <p>+52 9512475169</p>
+                            <p>+52 3320898598</p>
                         </div>
                     </div>
                 </motion.div>
 
                 <motion.form
+                    hidden
                     className="contact-form"
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
