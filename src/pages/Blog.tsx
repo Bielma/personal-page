@@ -2,7 +2,17 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import './Blog.css';
 
-const posts = []
+const posts = [
+
+    {
+        id: 1,
+        title: 'Optimizando el rendimiento web',
+        excerpt: 'Consejos prácticos para mejorar el Core Web Vitals y asegurar que tu sitio cargue instantáneamente.',
+        date: '12 Sep, 2023',
+        readTime: '6 min de lectura',
+        category: 'Performance'
+    }
+]
 
 const Blog = () => {
     return (
